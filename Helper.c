@@ -212,7 +212,6 @@ void generate_message(char* secret,size_t secret_len, char* key, char** message)
     // add the shuffled encrypted secret to message
     memcpy(*message + PRNG_SIZE + SECRET_LEN_SIZE, shuffled_secret, encrypted_secret_len);
     
-    phex(*message, message_len);
     free(shuffled_secret); 
 }
 
