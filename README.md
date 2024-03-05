@@ -4,11 +4,11 @@ Secure-LSB uses a simple LSB steganography technique capable of hiding any secre
 
 AES implemention for this tool is based on [Tiny AES C](https://github.com/kokke/tiny-AES-C) project.
 
-Structure of message:
+### Structure of message:
 
 ![](message.png)
 
-Example for shuffling mechanism:
+### Example for shuffling mechanism:
 
 ![](shuffle.png)
 
