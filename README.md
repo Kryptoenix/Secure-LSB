@@ -25,7 +25,7 @@ With `ICO` format:
 ```bash
 ./Secure-LSB hide verysecretkeykeysecret samples/Ico-file-for-testing.ico samples/slick.bin out.ico
 
-./Secure-LSB extract verysecretkeykeysecret out.ico out.txt
+./Secure-LSB extract verysecretkeykeysecret out.ico out.bin
 ```
 
 With `PNG` fornat:
@@ -33,7 +33,7 @@ With `PNG` fornat:
 ```bash
 ./Secure-LSB hide verysecretkeykeysecret samples/nature.png samples/slick.bin out.png 
 
-./Secure-LSB extract verysecretkeykeysecret out.png out.txt
+./Secure-LSB extract verysecretkeykeysecret out.png out.bin
 ```
 
 With `BMP` format:
